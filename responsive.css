@@ -1,0 +1,234 @@
+@media (max-width: 660px) {
+    .navbar_container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        background-color: #0F1111;
+    }
+
+    .logo {
+        height: 40px;
+        width: 80px;
+        border: 1px solid transparent;
+    }
+
+    .logo:hover {
+        height: 40px;
+        width: 80px;
+        border: 1px solid #fff;
+    }
+
+    .location_container {
+        height: 40px;
+        width: 70px;
+        border: 1px solid transparent;
+    }
+
+    .location_container:hover {
+        height: 40px;
+        width: 70px;
+        border: 1px solid #fff;
+    }
+
+    .deliver_to {
+        font-size: 11px;
+        color: #ccc;
+        /* margin-top: 8px; */
+        margin-left: 18px;
+    }
+
+    .location_icon {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .location_icon i {
+        font-size: 0.9rem;
+    }
+
+    .city_name {
+        margin-left: 3.5px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .nav_search {
+        display: flex;
+        background-color: #fff;
+        width: 800px;
+        margin-left: 15px;
+        border-radius: 6px;
+        border: 3px solid transparent;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .nav_search:hover {
+        border: 3px solid #fedb68;
+    }
+
+    .nav_selection {
+        background-color: #f3f3f3;
+        text-align: center;
+        height: 40px;
+        width: 50px;
+        outline: none;
+        border: none;
+    }
+
+    .nav-input:focus {
+        margin-left: 20px;
+        font-size: 17px;
+        outline: none;
+    }
+
+    .nav-input {
+        height: 40px;
+        border: none;
+        width: 800px;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    .search_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0F1111;
+        height: 40px;
+        font-size: 20px;
+        width: 50px;
+        background-color: #fedb68;
+
+    }
+
+    .sign_container {
+        display: flex;
+        align-items: center;
+        border: 1px solid transparent;
+        height: 40px;
+    }
+
+    .sign_container:hover {
+        display: flex;
+        align-items: center;
+        border: 1px solid #fff;
+        height: 40px;
+    }
+
+    .sign_text {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .sign_container select {
+        font-size: 13px;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-weight: 600;
+        background-color: transparent;
+    }
+
+    .order_container {
+        display: flex;
+        align-items: center;
+        padding-left: 5px;
+        border: 1px solid transparent;
+        height: 50px;
+    }
+
+    .order_container:hover {
+        border: 1px solid #fff;
+        height: 50px;
+    }
+
+    .returns {
+        font-size: 12px;
+    }
+
+    .order {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .cart_container {
+        display: flex;
+        border: 1px solid transparent;
+        align-items: end;
+        padding-left: 5px;
+        height: 50px;
+    }
+
+    .cart_container:hover {
+        border: 1px solid #fff;
+        height: 50px;
+    }
+
+    .cart_container i {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .cart {
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    /*  */
+
+    .second_navbar_container {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.6px;
+        padding: 0px 15px;
+        background-color: #313939;
+    }
+
+    .second_navbar_container .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .second_navbar_container .side_menu i {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .second_navbar_container .side_menu {
+        margin-right: 30px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .second_navbar_container .menu li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .second_navbar_container .menu li a {
+        color: #fff;
+        height: 40px;
+        padding: 10px;
+        border: 1px solid transparent;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .second_navbar_container .menu li a:hover {
+        border: 1px solid #fff;
+        padding: 10px;
+    }
+
+
+
+}
